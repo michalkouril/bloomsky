@@ -5,8 +5,15 @@
 
 SKY1 uses cooee (listening to WiFi 2.4GHz multicast packets) for WiFi SSID/Password configuration. The packets are encrypted. See the utility in the cooee folder.
 
+Setup:
+1. Turn on SKY1 (left button)
+2. When the device is running for a moment hold wifi button for 10s and release (WARNING -- this will wipe the existing WiFi SSID/Password)
+3. Run the utility
+
+Note: it may take a while (minutes) -- try restarting the device if not working.
+
 ```bash
-python3 cooee_send.py --ssid MyWiFiNetwork --password S3cured
+$ python3 cooee_send.py --ssid MyWiFiNetwork --password S3cured
 retrying... elapsed 3s
 retrying... elapsed 5s
 retrying... elapsed 8s
