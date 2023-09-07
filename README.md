@@ -5,6 +5,16 @@
 
 SKY1 uses cooee (listening to WiFi 2.4GHz multicast packets) for WiFi SSID/Password configuration. The packets are encrypted. See the utility in the cooee folder.
 
+```bash
+python3 cooee_send.py --ssid MyWiFiNetwork --password S3cured
+retrying... elapsed 3s
+retrying... elapsed 5s
+retrying... elapsed 8s
+retrying... elapsed 10s
+Received discovery response from 10.100.1.89 device ID 94A1A2712345 (SKY1)
+Sending restart command... 
+```
+
 ## SKY2 WiFi network setup
 
 SKY2 uses bluetooth to configure WiFi SSID/Password. See the browser based bluetooth setup (Chrome) in bluetooth folder.
